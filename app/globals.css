@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Sukar Black";
+  src: url("/fonts/Sukar-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
 @import "tailwindcss";
 
 :root {
