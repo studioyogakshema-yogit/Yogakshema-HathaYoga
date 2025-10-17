@@ -1,8 +1,9 @@
 @font-face {
-  font-family: "Sukar Black";
-  src: url("/fonts/Sukar-Black.ttf") format("truetype");
+  font-family: 'Sukar Black';
+  src: url('/fonts/sukar-black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
+  font-display: swap;
 }
 @import "tailwindcss";
 
