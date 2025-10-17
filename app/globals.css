@@ -1,3 +1,7 @@
+/* Import Open Sans Condensed first */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+
+/* Local Sukar Black font */
 @font-face {
   font-family: 'Sukar Black';
   src: url('/fonts/sukar-black.ttf') format('truetype');
@@ -5,7 +9,10 @@
   font-style: normal;
   font-display: swap;
 }
+
+/* Tailwind setup */
 @import "tailwindcss";
+
 
 :root {
   --background: #ffffff;

@@ -24,9 +24,13 @@ export default function Home() {
           >
             Yogakshema
           </h1>
-          <h2 className="text-lg md:text-2xl font-light tracking-wide text-white/95">
-            Complete well-being through Classical Hatha Yoga
-          </h2>
+          <h2
+  className="text-lg md:text-2xl font-light tracking-wide text-white/95"
+  style={{ fontFamily: "'Open Sans Condensed', sans-serif" }}
+>
+  Complete well-being through Classical Hatha Yoga
+</h2>
+
         </div>
       </section>
     </main>
