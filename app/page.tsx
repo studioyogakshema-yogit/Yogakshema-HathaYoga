@@ -4,6 +4,7 @@ export default function Home() {
       <section
         className="
           <section
+  <section
   className="relative h-screen w-full bg-[url('/hero.jpg')] bg-center bg-cover"
   style={{
     backgroundAttachment: 'fixed',
@@ -16,8 +17,12 @@ export default function Home() {
   {/* Text Section */}
   <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
     <h1
-      className="text-5xl md:text-7xl font-black mb-4"
-      style={{ fontFamily: 'Sukar Black, sans-serif', color: '#ff7f32' }}
+      className="text-5xl md:text-7xl font-black mb-4 drop-shadow-[0_0_25px_rgba(255,127,50,0.6)]"
+      style={{
+        fontFamily: 'Sukar Black, sans-serif',
+        color: '#ff7f32',
+        textShadow: '0 0 25px rgba(255,127,50,0.6), 0 0 45px rgba(255,127,50,0.4)',
+      }}
     >
       Yogakshema
     </h1>
@@ -25,6 +30,8 @@ export default function Home() {
       Complete well-being through Classical Hatha Yoga
     </h2>
   </div>
+</section>
+
 </section>
 
       >
